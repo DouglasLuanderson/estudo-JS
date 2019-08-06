@@ -1,6 +1,10 @@
-window.alert('Hello word')
-window.confirm('lets go JS')
-window.prompt('Inserir seu nome')
+let name = window.prompt('Qual o seu nome? ');
+window.alert('Prazer em te conhecer '  +  name + " !"); // juntando uma variável com meu alerta (concatenar)
+
+
+
+
+
 
 
 
